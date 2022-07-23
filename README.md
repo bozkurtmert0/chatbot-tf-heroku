@@ -4,3 +4,10 @@
 
 
 [LINK](https://kevin-the-chatbot.herokuapp.com)
+
+
+# Just simple questions because not trained with enough data
+What is AI ?
+What is NLP ?
+Do you know underfitting ?
+Can machines think?
