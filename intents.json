@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "ai",
+         "patterns": ["What is ai?", "Do you know ai?", "Can you explain ai?" ],
+         "responses": ["Artificial intelligence (AI) refers to the simulation of human intelligence", " AI is machines that are programmed to think like humans and mimic their actions."]
+        },
+        {"tag": "overfitting",
+         "patterns": ["What is the overfitting?", "Do you know overfitting?" ],
+         "responses": ["Overfitting is occurs when a statistical model fits exactly against its training data.", " Overfitting occurs when the model has a high variance"]
+        },
+        {"tag": "machine",
+         "patterns": ["Can machines think?" ],
+         "responses": ["Yes i think so " ]
+        },
+        {"tag": "underfitting",
+         "patterns": ["What is the underfitting?", "Do you know underfitting?"],
+         "responses": ["Underfitting is data model is unable to capture the relationship between the input and output variables accurately", "When the model performs poorly on the training data you have underfitting "]
+        },
+        {"tag": "nlp",
+         "patterns": ["What is nlp ?", "Can you explain nlp ?", "Do you know nlp?" ],
+         "responses": ["Do you mean Natural language processing "],
+         "context_set": "nlp"
+        },
+        {"tag": "yes",
+         "patterns": ["yes", "sure", "absolutely"],
+         "responses": ["NLP is the ability of a computer program to understand human language as it is spoken and written", "NLP is a collective term referring to automatic computational processing of human languages"],
+         "context_filter": "nlp"
+        }
+   ]
+}
+
