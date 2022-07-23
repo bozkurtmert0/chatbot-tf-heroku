@@ -24,5 +24,5 @@ def ol():
 
 st.text_input("Ask me about AI", key="input_text", on_change=ol)
 
-for chat in st.session_state.history:
-    st_message(**chat)  # unpacking
+for chat1 in st.session_state.history:
+    st_message(**chat1)  # unpacking
