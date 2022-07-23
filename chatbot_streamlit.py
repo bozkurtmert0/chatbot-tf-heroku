@@ -22,7 +22,7 @@ def ol():
 #user_message = st.session_state.input_text
 #result = model.generate(**inputs)
 
-st.text_input("Tell me something", key="input_text", on_change=ol)
+st.text_input("Ask me about AI", key="input_text", on_change=ol)
 
 for chat in st.session_state.history:
     st_message(**chat)  # unpacking
